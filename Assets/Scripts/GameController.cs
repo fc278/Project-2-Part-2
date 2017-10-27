@@ -73,28 +73,8 @@ public class GameController : MonoBehaviour {
 
 	}
 
-
-
-
 	// Update is called once per frame
 	void Update () {
 
 	}
 }
-
-
-// if currentCube is not a plane (white cube), and player clicks on it, it should turn into a red cube
-//if (currentCube == cloud) {
-//	currentCube.GetComponent<Renderer> ().material.color = Color.white;
-//	currentCube = null;
-//} else {
-//	currentCube.GetComponent<Renderer> ().material.color = Color.red;
-//	activePlane = currentCube;
-//}
-
-// if clicked on, deactivate activePlane (red cube) by changing it to a blue cube
-
-//if (currentCube == activePlane) {
-//	currentCube.GetComponent<Renderer> ().material.color = Color.blue;
-//	currentCube = deactivatedPlane;
-//} 
